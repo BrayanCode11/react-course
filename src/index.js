@@ -9,4 +9,11 @@ function Greeting() {
   return <h1>{married ? "Estoy casado 😊" : "No estoy casado 🤣"}</h1>;
 }
 
-root.render(<Greeting />);
+root.render(
+  <>
+    <Greeting />
+    <Greeting />
+    <Greeting />
+    <Greeting />
+  </>
+);
