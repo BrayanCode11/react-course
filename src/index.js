@@ -1,13 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import {Greeting, UserCard} from "./Greeting";
+import Product from "./Product";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-
-function Greeting() {
-  const married = false;
-
-  return <h1>{married ? "Estoy casado 😊" : "No estoy casado 🤣"}</h1>;
-}
 
 root.render(
   <>
@@ -15,5 +11,7 @@ root.render(
     <Greeting />
     <Greeting />
     <Greeting />
+    <UserCard />
+    <Product />
   </>
 );
