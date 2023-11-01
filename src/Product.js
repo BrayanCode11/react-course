@@ -1,17 +1,15 @@
+//Utilizando export default
+
 function Product() {
   return (
     <div>
-      <h1>Product</h1>
+      <h1>Producto</h1>
     </div>
   );
 }
 
-function Product2() {
-  return (
-    <div>
-      <h1>Product2</h1>
-    </div>
-  );
+export function Navbar() {
+  return <nav>Navigation</nav>;
 }
 
 export default Product;
