@@ -7,10 +7,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <>
+    <Button text={"click here"}  />
 
-  <Button />
-
-   {/*  <UserCard
+    {/*  <UserCard
       name="Ryan Ray"
       amount={3000}
       married={true}
