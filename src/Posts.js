@@ -1,4 +1,4 @@
-import { VscArrowCircleDown , VscAccount} from "react-icons/vsc";
+import { VscArrowCircleDown, VscAccount } from "react-icons/vsc";
 
 export const Posts = () => {
   return (
@@ -10,7 +10,7 @@ export const Posts = () => {
           .catch((error) => console.log(error));
       }}
     >
-      <VscAccount/>  
+      <VscAccount />
       Traer datos
     </button>
   );
