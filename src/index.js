@@ -24,12 +24,20 @@ function Counter() {
         -
       </button>
 
-      <button onClick={
-        () => {
+      <button
+        onClick={() => {
           setCounter(50);
-        }
-      }>
-        reiniciar
+        }}
+      >
+        reiniciar a 50
+      </button>
+
+      <button
+        onClick={() => {
+          setCounter(100);
+        }}
+      >
+        reiniciar a 100
       </button>
     </div>
   );
